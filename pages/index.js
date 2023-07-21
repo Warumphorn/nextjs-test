@@ -25,7 +25,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to 22222222<a href="https://nextjs.org">jungle!</a>
+          Welcome to hello<a href="https://nextjs.org">jungle!</a>
         </h1>
 
 
