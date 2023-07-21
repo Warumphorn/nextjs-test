@@ -4,6 +4,7 @@ export default function Ken(props) {
         <div>
         <div>{props.text} - {props.testset}</div>
         <div> Warumphorn </div>
+        <div> Test Dev  </div>
         </div>
     )
 }
