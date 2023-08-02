@@ -30,8 +30,7 @@ export default function Home() {
 
 
       <Ken text="Hello" testset="123123"></Ken>
-
-
+     
 
 
 
