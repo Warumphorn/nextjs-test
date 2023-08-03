@@ -1,11 +1,8 @@
 export default function footer(){
     return(
         <footer>
-            <ul>
-                <li>หน้าแรก</li>
-                <li>เกี่ยวกับเรา</li>
-            </ul>
-        </footer>
+            <h1>Warumphorn 2023 </h1>
+       </footer>
 
     )
 

@@ -1,15 +1,30 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
+import Ken1 from './ken/index'
+import navbar1 from './ken/navbar'
 
-import Ken from './ken'
+
+
+
+
+/*import navbar from './component/navbar'
+/*import footer from '../component/footer'* <ken text="Hello" testset="123123"> ssssssss </ken>*/
+
 
 
 
 export default function Home() {
 
+  return (
+    
+  
+    <Ken1/>
+   
+    
+    
+  )
 
-
-  const data = ""
+  /* const data = ""
 
 
   return (
@@ -18,27 +33,14 @@ export default function Home() {
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className="col-lg-4">test1</div>
-      <div className="col-lg-4">test2</div>
-      <div className="col-lg-4">test3</div>
-      <div className="col-lg-4">test4</div>
+   
 
       <main className={styles.main}>
         <h1 className={styles.title}>
           Welcome to hello<a href="https://nextjs.org">jungle!</a>
         </h1>
-
-
-      <Ken text="Hello" testset="123123"></Ken>
-     
-
-
-
-
-
-
-
-      </main>
+        <Ken text="Hello" testset="123123"></Ken>
+     </main>
 
       <footer className={styles.footer}>
         <a
@@ -52,4 +54,5 @@ export default function Home() {
       </footer>
     </div>
   )
+  */
 }

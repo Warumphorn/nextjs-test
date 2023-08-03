@@ -1,15 +1,22 @@
+export default function Ken1(){
+  return(
+      
+    <nav>
+      <div><h1>TEST INDEX</h1></div>
+      <ul>
+        <li>หน้าแรก</li>
+        <li>เกี่ยวกับเรา</li>
+      </ul>
+    </nav>
+       
+      
 
-export default function Ken(props) {
-    return (
-        <div>
-            <div>{props.text} - {props.testset}</div>
-            <div> Warumphorn </div>
-        </div>
-    )
+  )
+
 }
 
 
-function SwitchExample() {
+/*function SwitchExample() {
     return (
       <Form>
         <Form.Check // prettier-ignore
@@ -25,4 +32,4 @@ function SwitchExample() {
         />
       </Form>
     );
-  }
+  }*/
