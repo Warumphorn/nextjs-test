@@ -8,7 +8,8 @@ services:
     volumes:
       - ./pages:/app/pages
       - ./public:/app/public
-      - ./์component:/app/component
+      - ./component:/app/component
+      - ./logo.png
       
   
     restart: always

@@ -1,7 +1,7 @@
 export default function footer(){
     return(
         <footer>
-            <h1>Warumphorn 2023 </h1>
+            <h2>Warumphorn 2023 </h2>
        </footer>
 
     )
