@@ -9,8 +9,8 @@ services:
       - ./pages:/app/pages
       - ./public:/app/public
       - ./component:/app/component
-      - ./logo.png
       
+
   
     restart: always
     ports:
